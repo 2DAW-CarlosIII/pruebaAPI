@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagesPNG/favicon.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" target="_blank"><img src="imagesPNG/logoHeader.svg" alt="Logo de la empresa"></a>
+        <nav>
+            <a href="index.html" target="_blank" id="inicio">Inicio</a>
+            <a href="index.html#services" target="_blank">Servicios</a>
+            <a href="index.html#clientes" target="_blank">Clientes</a>
+            <a href="index.html#contrataciones" target="_blank">Contratación</a>
+            <a href="#">Soporte</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contenedor1" class="contenedorFlex">
+            <div class="textoSeccion2">
+                <h2>Preguntas Frecuentes</h2>
+                <ul>
+                    <li>
+                        <strong>Pregunta 1:</strong> ¿Qué tipos de aplicaciones y sistemas puede desarrollar su
+                        equipo
+                        de software?
+                        <p>Nuestro equipo de desarrollo de software tiene experiencia en la creación de una amplia
+                            variedad de aplicaciones y sistemas, incluyendo aplicaciones web, móviles, de escritorio
+                            y
+                            sistemas empresariales personalizados. Estamos capacitados para adaptarnos a tus
+                            necesidades
+                            específicas.</p>
+                    </li>
+                    <li>
+                        <strong>Pregunta 2:</strong> ¿Cuál es el proceso de desarrollo de software que siguen?
+                        <p>Seguimos un proceso de desarrollo de software que incluye análisis de requerimientos,
+                            diseño,
+                            implementación, pruebas y despliegue. Trabajamos en estrecha colaboración contigo
+                            durante
+                            todo el proceso para garantizar que el producto final cumpla con tus expectativas.</p>
+                    </li>
+                    <li>
+                        <strong>Pregunta 3:</strong> ¿Qué lenguajes de programación y tecnologías utilizan en su
+                        desarrollo?
+                        <p>Utilizamos una amplia gama de lenguajes de programación y tecnologías, incluyendo HTML,
+                            CSS,
+                            JavaScript, Python, Java, PHP y más. La elección depende de las necesidades de cada
+                            proyecto
+                            específico.</p>
+                    </li>
+                    <li>
+                        <strong>Pregunta 4:</strong> ¿Ofrecen servicios de mantenimiento y soporte continuo?
+                        <p>Sí, ofrecemos servicios de mantenimiento y soporte post-lanzamiento para asegurarnos de
+                            que
+                            tu aplicación o sistema siga funcionando sin problemas y esté actualizado con las
+                            últimas
+                            tecnologías y parches de seguridad.</p>
+                    </li>
+                    <li>
+                        <strong>Pregunta 5:</strong> ¿Cuál es el tiempo estimado de desarrollo de un proyecto
+                        típico?
+                        <p>El tiempo de desarrollo varía según la complejidad del proyecto, pero proporcionaremos
+                            una
+                            estimación de tiempo después de una evaluación inicial. Trabajamos eficientemente para
+                            entregar proyectos en el plazo acordado.</p>
+                    </li>
+                    <li>
+                        <strong>Pregunta 6:</strong> ¿Qué medidas toman para garantizar la seguridad de los datos y
+                        la
+                        privacidad?
+                        <p>Nos comprometemos a proteger la seguridad y privacidad de los datos. Implementamos
+                            medidas de
+                            seguridad sólidas, seguimos las mejores prácticas y cumplimos con las regulaciones de
+                            protección de datos aplicables.</p>
+                    </li>
+                    <li>
+                        <strong>Pregunta 7:</strong> ¿Pueden trabajar en colaboración con otros equipos o
+                        desarrolladores?
+                        <p>Sí, estamos dispuestos a colaborar con otros equipos o desarrolladores. Podemos
+                            integrarnos
+                            en proyectos existentes o trabajar como un equipo independiente, según tus necesidades.
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Pregunta 8:</strong> ¿Cuál es el coste de sus servicios de desarrollo de software?
+                        <p>El coste de nuestros servicios varía según la complejidad del proyecto y el alcance de
+                            trabajo. Te proporcionaremos un presupuesto personalizado después de discutir tus
+                            requerimientos específicos en detalle. Estamos comprometidos a ofrecer soluciones de
+                            alto
+                            valor a precios competitivos.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contrataciones" class="contenedorFlex">
+            <div class="textoSeccion">
+                <h1>Soporte</h1>
+                <p>¡Bienvenido a nuestra página de soporte! Estamos aquí para ayudarte. Por favor, completa el
+                    formulario a continuación para que podamos resolver tus necesidades de manera rápida y eficiente.
+                    ¡Gracias!</p>
+                <form action="mailto:softwaretroupe@gmail.com" method="post">
+                    <p>Datos personales</p>
+                    <br><br>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <br><br>
+                    <label for="correo">Correo</label>
+                    <input id="correo" type="email" name="correo" id="correo">
+                    <br><br>
+                    <label for="tlf">Teléfono</label>
+                    <input type="number" name="tlf" id="tlf">
+                    <br><br>
+                    <p>Servicios en los que necesita ayuda</p>
+                    <br><br>
+                    <input type="checkbox" name="servicios" id="web" value="web" checked>
+                    <label for="web">Página web</label>
+                    <br><br>
+                    <input type="checkbox" name="servicios" id="seo" value="seo">
+                    <label for="seo">Posicionamiento web</label>
+                    <br><br>
+                    <input type="checkbox" name="servicios" id="multiplataforma" value="multiplataforma">
+                    <label for="multiplataforma">Aplicación</label>
+                    <br><br>
+                    <input type="checkbox" name="servicios" id="sistemas" value="sistemas">
+                    <label for="sistemas">Programación de sistemas</label>
+                    <br><br><br>
+                    <label for="archivo">Si tiene una imagen del error, adjúntela.</label>
+                    <br><br>
+                    <input type="file" name="archivo" id="archivo" accept="image/*">
+                    <br><br>
+                    <textarea name="comentario" id="comentario" cols="80" rows="5"
+                        placeholder="Exponga brevemente la incidencia..."></textarea>
+                    <br><br>
+                    <input class="boton" type="reset" value="Borrar">
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="imagenContratacion">
+                <img src="imagesPNG/logoGrande.svg" alt="Logo de la empresa">
+            </div>
+        </section>
+        <section>
+            <div class="textoSeccion">
+                <h1>Video soporte</h1>
+            </div>
+            <div class="textoSeccion">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BKMmLqv0IXA?si=uTzmhcG8v3FwL8T1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673">Página comprometida con la ley de protección de
+            datos.</a>
+    </footer>
+</body>
+
+</html>
