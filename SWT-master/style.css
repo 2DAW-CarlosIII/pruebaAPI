@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #2597F4;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+header img {
+    display: inline;
+    margin-left: 10%;
+    color: #f7f7f7;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: inline;
+    margin-top: 0.3%;
+}
+
+nav a {
+    margin-left: 8%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#inicio {
+    margin-left: 20%;
+}
+
+nav a:link {
+    color: #f7f7f7;
+}
+
+nav a:visited {
+    color: #f7f7f7;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    border: thin;
+    border-color: gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px gray;
+    margin: 3% 10%;
+    padding-bottom: 1%;
+}
+
+.contenedorFlex {
+    display: flex;
+}
+
+#contenedor1 {
+    margin-top: 6%;
+    padding-bottom: -3%;
+}
+
+.contenedorFlex .textoSeccion h1 {
+    margin-top: -4%;
+}
+
+.textoSeccion {
+    margin-top: 3%;
+    margin-left: 3%;
+    /* border: solid #2597F4; */
+}
+
+.textoSeccion h1 {
+    padding-top: 2%;
+}
+
+.textoSeccion ul {
+    margin-top: 5%;
+}
+
+.textoSeccion p {
+    margin-top: 5%;
+}
+
+.imagenSeccion {
+    /* border: solid; */
+    margin: 2% 6% 0% 9%;
+    /* border-color: #2597F4; */
+    padding: 1%;
+}
+
+.mallaServicios {
+    margin-top: 3%;
+    display: flex;
+}
+
+.mallaServicios img {
+    margin-left: 10%;
+}
+
+.mallaServicios h3 {
+    margin-left: 40%;
+    margin-top: -11%;
+    display: block;
+}
+
+.mallaServicios p {
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+article {
+    margin: 0% 2% 5% 2%;
+    border: solid gray;
+    border-radius: 10px;
+    padding: 2% 0%;
+    padding-right: 1%;
+}
+
+.mallaTecnologias {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.mallaTecnologias h1 {
+    padding-bottom: 2%;
+}
+
+.mallaClientes {
+    margin: 3% 0% 3% 0%;
+    text-align: center;
+}
+
+#clientes {
+    border-radius: 15px;
+}
+
+.imagenContratacion {
+    margin: 15% 5% 10% -10%;
+    padding: 3%;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+#correo {
+    margin-left: 1.75%;
+}
+
+.radio {
+    margin-right: 2%;
+}
+
+footer {
+    padding: 1% 0% 1% 1%;
+    background-color: #2597F4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.textoSeccion2 {
+    margin-top: 3%;
+    margin-left: 3%;
+    max-width: 95%;
+    /* border: solid #2597F4; */
+}
+
+.textoSeccion2 p {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    /* border: solid #2597F4; */
+}
+
+.textoSeccion2 h2 {
+
+    margin-bottom: 2%;
+    /* border: solid #2597F4; */
+}
+
+.boton {
+    font-weight: bold;
+    width: 12%;
+    padding: 1%;
+    background-color: #2597F4;
+    border-radius: 10px;
+    border-color: #2597F4;
+    color: #f7f7f7;
+}
